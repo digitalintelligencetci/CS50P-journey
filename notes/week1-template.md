@@ -34,7 +34,7 @@
 - round function, decimals and places
 - define (def)
     - () no inputs or arguments passed
-    - colon means stay tuned for indentations. Everything indented (beneath the line of code) is apart of the function.oo
+    - colon means stay tuned for indentations. Everything indented (beneath the line of code) is apart of the function.
 
 
 ---
