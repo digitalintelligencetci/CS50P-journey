@@ -31,8 +31,10 @@
 - interactive move
 - type converter: int, float
 - input is a function
-- round function
-- 
+- round function, decimals and places
+- define (def)
+    - () no inputs or arguments passed
+    - colon means stay tuned for indentations. Everything indented (beneath the line of code) is apart of the function.oo
 
 
 ---

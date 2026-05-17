@@ -64,4 +64,4 @@ Weekly reflection notes live in the `/notes` folder. These aren't just summaries
 
 ## 🔗 Course Link
 
-[cs50.harvard.edu/python](https://cs50.harvard.edu/python)
+[cs50.harvard.edu/python](https://cs50.harvard.edu/python/weeks/0/)
