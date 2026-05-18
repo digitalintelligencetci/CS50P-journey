@@ -1,4 +1,5 @@
-
-
-user_input = input("Say Hello from your city: ")
-print(user_input.replace(" ", "..."))
+#!/usr/bin/env python3
+m = int(input("Enter mass in kg: "))
+c = 300000000
+E = m * c * c
+print(E)
