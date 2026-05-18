@@ -5,6 +5,10 @@
 
 ---
 
+## Reminder when it gets hard
+- "This is actually the best time to be learning."
+
+
 ## 📚 What We Covered
 
 - lecture notes added to space in Obsidian
