@@ -42,8 +42,7 @@
 
 | Problem | Status | Notes |
 |---------|--------|-------|
-| | ⏳ | |
-| | ⏳ | |
+| Week 0 | Completed | Reflections Updated|
 
 ---
 
@@ -55,16 +54,16 @@
 - I became discouraged and frustrated and thought that I should continue practicing but this week lecture covered all the basics that I can refer to.
 - Most importantly I learned that Week 0 is the basics blueprint of Python.
 Week 0 covers:
-✅ variables
-✅ functions
-✅ parameters
-✅ arguments
-✅ return values
-✅ input/output
-✅ strings, int, floats
-✅ methods (.lower, .replace)
-✅ f-strings
-✅ main()
+    - variables
+    - functions
+    - parameters
+    - arguments
+    - return values
+    - input/output
+    - strings, int, floats
+    - methods (.lower, .replace)
+    - f-strings
+    - main()
 
 ---
 
