@@ -52,8 +52,7 @@ Doing this in Level 7 alongside modules and deadlines would make this journey ha
 - else: final fallback
 - or: either condition is enough
 - and: both conditions required
-- pythonic: chaining methods together
-
+- "Pythonic": chaining methods together
 
 ---
 
@@ -91,4 +90,4 @@ Doing this in Level 7 alongside modules and deadlines would make this journey ha
 
 ## 🔗 Useful Resources
 
-- 
+---
