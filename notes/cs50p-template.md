@@ -1,4 +1,4 @@
-# Week 1 - Lecture 0 - Functions, Variables
+# CS50P Weekly Learning Template
 
 **Date Started:** Sunday 10 May 2026  
 **Date Completed:** pending
@@ -6,7 +6,10 @@
 ---
 
 ## Reminder when it gets hard
-- "This is actually the best time to be learning."
+
+🙏🏾 "This is actually the best time to be learning." 
+
+Doing this in Level 7 alongside modules and deadlines would make this journey harder.
 
 
 ## 📚 What We Covered
@@ -16,6 +19,8 @@
 ---
 
 ## 💡 Key Concepts
+
+## Week 1 - Lecture 0 - Functions, Variables
 
 - Everything in a parenthesis are the arguments to the function.
 - concatenation
@@ -40,6 +45,16 @@
 - () no inputs or arguments passed
 - colon means stay tuned for indentations. Everything indented (beneath the line of code) is apart of the function.
 
+## Week 2 - Conditionals
+
+- if: first check
+- elif / else if: next check if if failed
+- else: final fallback
+- or: either condition is enough
+- and: both conditions required
+- pythonic: chaining methods together
+
+
 ---
 
 ## 🧩 Problem Set
@@ -56,18 +71,21 @@
 - I learned how to read a problem and break down the requirements in byte size.
 - My biggest challenge was knowing what to write; applying the syntax - knowing what to say in Python.
 - I became discouraged and frustrated and thought that I should continue practicing but this week lecture covered all the basics that I can refer to.
+
 - Most importantly I learned that Week 0 is the basics blueprint of Python.
-Week 0 covers:
-    - variables
-    - functions
-    - parameters
-    - arguments
-    - return values
-    - input/output
-    - strings, int, floats
-    - methods (.lower, .replace)
-    - f-strings
-    - main()
+
+## Week 0 covers
+
+- variables
+- functions
+- parameters
+- arguments
+- return values
+- input/output
+- strings, int, floats
+- methods (.lower, .replace)
+- f-strings
+- main()
 
 ---
 
