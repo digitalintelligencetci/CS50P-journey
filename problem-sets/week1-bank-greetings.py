@@ -1,3 +1,8 @@
+# Pseudo Code:
+# 1. Get input to .lower() = .strip()
+# 2. if starts with "hello" = $0
+# 3. elif starts with "h"   = $20
+# 4. else                   = $100
 
 #!/usr/bin/env python3
 

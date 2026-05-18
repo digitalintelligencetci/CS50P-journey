@@ -1,3 +1,12 @@
+# Pseudo Code
+# 1. Get input → split into x, y, z
+# 2. Convert x and z to integers
+# 3. if y is + → add
+# 4. elif y is - → subtract
+# 5. elif y is * → multiply
+# 6. elif y is / → divide
+# 7. Print result as float to 1 decimal place
+
 #!/usr/bin/env python3
 
 

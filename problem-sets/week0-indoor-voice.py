@@ -1,3 +1,10 @@
+# Pseudo code:
+# 1. prompt user for input
+# 2. print user input in lowercase
+# 3. punctuation and whitespace should printed unchanged
+# 4. prompt the user by passing a str as an argument to input
+
+
 #!/usr/bin/env python3
 
 # Problem Set - Indoor Voice

@@ -1,3 +1,13 @@
+# Pseudo Code:
+# 1. Get filename input → .lower()
+# 2. if ends with .gif  → image/gif
+# 3. elif ends with .jpg or .jpeg → image/jpeg
+# 4. elif ends with .png → image/png
+# 5. elif ends with .pdf → application/pdf
+# 6. elif ends with .txt → text/plain
+# 7. elif ends with .zip → application/zip
+# 8. else → application/octet-stream
+
 #!/usr/bin/env python3
 
 file_name = input("Enter filename: ").lower()

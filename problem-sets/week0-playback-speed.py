@@ -1,3 +1,8 @@
+# Pseudo Code:
+# 1. Prompt the user for input
+# 2. Add a method to the input
+# 3. Print the input with three periods
+
 #!/usr/bin/env python3
 
 
