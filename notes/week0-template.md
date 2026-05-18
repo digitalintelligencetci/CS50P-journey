@@ -33,9 +33,8 @@
 - input is a function
 - round function, decimals and places
 - define (def)
-    - () no inputs or arguments passed
-    - colon means stay tuned for indentations. Everything indented (beneath the line of code) is apart of the function.
-
+- () no inputs or arguments passed
+- colon means stay tuned for indentations. Everything indented (beneath the line of code) is apart of the function.
 
 ---
 
@@ -50,7 +49,22 @@
 
 ## 💭 Reflections
 
-<!-- What clicked? What was tricky? How does this connect to your wider learning? -->
+- I found that pseudo code is essential and must be a standard going forward.
+- I learned how to read a problem and break down the requirements in byte size.
+- My biggest challenge was knowing what to write; applying the syntax - knowing what to say in Python.
+- I became discouraged and frustrated and thought that I should continue practicing but this week lecture covered all the basics that I can refer to.
+- Most importantly I learned that Week 0 is the basics blueprint of Python.
+Week 0 covers:
+✅ variables
+✅ functions
+✅ parameters
+✅ arguments
+✅ return values
+✅ input/output
+✅ strings, int, floats
+✅ methods (.lower, .replace)
+✅ f-strings
+✅ main()
 
 ---
 
