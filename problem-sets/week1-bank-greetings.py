@@ -1,7 +1,7 @@
 
 #!/usr/bin/env python3
 
-user_greeting = input("Welcome, what is your name? ").lower().strip()
+user_greeting = input("Greeting: ").lower().strip()
 
 if user_greeting.startswith('hello'):
     print('$0')
