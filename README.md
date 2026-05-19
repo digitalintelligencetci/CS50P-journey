@@ -1,16 +1,16 @@
-# 🐍 CS50P — Introduction to Programming with Python
+# CS50P — Introduction to Programming with Python
 
 My personal journey through Harvard's CS50P course, documented as I go.
 
 ---
 
-## 👋 About
+## About
 
 I'm working through CS50P as part of a self-directed gap year focused on building technical skills in Python, digital forensics, and embedded systems. This repo tracks my progress through each problem set, captures my notes, and will eventually include my final project.
 
 ---
 
-## 📈 Progress
+## Progress
 
 | Week | Topic | Status |
 |------|-------|--------|
@@ -26,11 +26,11 @@ I'm working through CS50P as part of a self-directed gap year focused on buildin
 | Week 9 | Et Cetera | ⏳ |
 | Final Project | TBD | ⏳ |
 
-> ✅ Complete · 🔄 In Progress · ⏳ Not Started
+> Complete · In Progress · Not Started
 
 ---
 
-## 📁 Structure
+## Directory Structure
 
 ```
 /
@@ -49,19 +49,19 @@ I'm working through CS50P as part of a self-directed gap year focused on buildin
 
 ---
 
-## 💭 Why CS50P?
+## Why CS50P?
 
 <!-- Update this in your own words -->
 I wanted a structured, rigorous introduction to Python from a trusted source before diving deeper into personal projects around digital forensics and embedded systems. CS50P fits that — it's free, well-paced, and Harvard-quality.
 
 ---
 
-## 🗒️ Notes
+## Notes
 
 Weekly reflection notes live in the `/notes` folder. These aren't just summaries — they're my thoughts on what clicked, what didn't, and how concepts connect to my wider learning.
 
 ---
 
-## 🔗 Course Link
+## Course Link
 
 [cs50.harvard.edu/python](https://cs50.harvard.edu/python/weeks/0/)
