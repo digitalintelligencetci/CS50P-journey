@@ -6,7 +6,7 @@ My personal journey through Harvard's CS50P course, documented as I go.
 
 ## About
 
-I'm working through CS50P as part of a self-directed gap year focused on building technical skills in Python, digital forensics, and embedded systems. This repo tracks my progress through each problem set, captures my notes, and will eventually include my final project.
+I'm working through CS50P as part of a self-directed dissertation build, focused on building technical skills in Python, digital forensics, and embedded systems. This repo tracks my progress through each problem set, captures my notes, and will eventually include my final project.
 
 ---
 
@@ -14,8 +14,8 @@ I'm working through CS50P as part of a self-directed gap year focused on buildin
 
 | Week | Topic | Status |
 |------|-------|--------|
-| Week 0 | Functions, Variables | ⏳ |
-| Week 1 | Conditionals | ⏳ |
+| Week 0 | Functions, Variables | Completed |
+| Week 1 | Conditionals | Completed |
 | Week 2 | Loops | ⏳ |
 | Week 3 | Exceptions | ⏳ |
 | Week 4 | Libraries | ⏳ |
