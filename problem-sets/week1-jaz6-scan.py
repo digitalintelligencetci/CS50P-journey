@@ -32,8 +32,6 @@
 # f"Scan time: {time}"
 # f"Confidence: {confidence}"
 
-
-#
 # if __name__ == "__main__":
 # 17. Call main()
 
