@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Pseudo Code
 # 1. Get input → split into x, y, z
 # 2. Convert x and z to integers
@@ -7,16 +9,14 @@
 # 6. elif y is / → divide
 # 7. Print result as float to 1 decimal place
 
-#!/usr/bin/env python3
-
 
 # Step 1 — get input and split immediately
 expression = input("Expression: ").split()
 
 # Step 2 — assign each part
-x = int(expression[0])    # first number
-y = expression[1]         # operator
-z = int(expression[2])    # second number
+x = int(expression[0])  # first number
+y = expression[1]  # operator
+z = int(expression[2])  # second number
 
 # Step 3 — calculate based on operator
 if y == "+":
