@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Pseudo Code:
-# 1. Get user input for a time
+# 1. Prompt user for a time in 24 hour format
 # 2. Output whether breakfast, lunch or dinner based on time
 # - 7:00 - 8:00 breakfast
 # - 12:00 - 13:00 lunch
