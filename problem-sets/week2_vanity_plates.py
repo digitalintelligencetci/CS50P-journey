@@ -26,23 +26,20 @@ def is_valid(s):                                # special set of instructions of
         return False                            # returns false if it does not meet the required condition.
 
     if not s[:2].isalpha():                     # checks the first two characters are letters.
-                                                # not is used as a reverse method or if something must be true the code should read "if it is not what is true".
-        return False                           
+        return False                            # not is used as a reverse method or if something must be true the code should read "if it is not what is true".
 
     if not s.isalnum():                         # checks it contains only letters and numbers.
         return False
 
     for i in range(len(s)):
-        if s[i].isnumeric() and s[i] == "0":    # = assigns a value and == compares two values
-            return False
+        if s[i].isnumeric():                    # = assigns a value and == compares two values
+            if s[i] == "0":
+                return False
 
-        if not s[i:].isnumeric():
-            return False
-        else:
-            break
-                                                # break stops the loop
-                                                # return false stops the entire function and sends back false.
-    return True
+            if not s[i:].isnumeric():
+                return False
+            break                                   # break / stops the loop
+    return True                                 # return false stops the entire function and sends back false.
 
 
 main()
