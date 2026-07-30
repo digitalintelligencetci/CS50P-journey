@@ -38,7 +38,7 @@ def is_valid(s):                                # special set of instructions of
 
             if not s[i:].isnumeric():
                 return False
-            break                                   # break / stops the loop
+            break                               # break / stops the loop
     return True                                 # return false stops the entire function and sends back false.
 
 
