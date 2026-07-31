@@ -16,7 +16,7 @@ I'm working through CS50P as part of a self-directed dissertation build, focused
 |------|-------|--------|
 | Week 0 | Functions, Variables | Completed |
 | Week 1 | Conditionals | Completed |
-| Week 2 | Loops | ⏳ |
+| Week 2 | Loops | Completed |
 | Week 3 | Exceptions | ⏳ |
 | Week 4 | Libraries | ⏳ |
 | Week 5 | Unit Tests | ⏳ |

@@ -11,8 +11,8 @@ snake_case = ""
 
 
 for character in name:
-    if character.isupper():
-        snake_case += "_" + character.lower()
+    if character.isupper():                             # checks if all characters are uppercase
+        snake_case += "_" + character.lower()           # converts characters to lowercase          
     else:
         snake_case += character
 
