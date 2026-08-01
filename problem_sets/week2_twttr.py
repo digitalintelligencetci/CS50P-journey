@@ -9,13 +9,12 @@
 #   Print the result
 
 
-text = input("Input: ")
-output = ""
+text = input("Input: ")     # ask the user for some text
+output = ""     #  create somewhere to store the result
 
-for v in text:
-    vowels = ["a", "e", "i", "o", "u"]
-    if v.lower() not in vowels:
-        output = output + v
+for v in text:      # look at each character in the text
+    vowels = ["a", "e", "i", "o", "u"]  # list of vowels
+    if v.lower() not in vowels:     # if the character is not a vowel
+        output = output + v     # add it to the result
 
-print(f"Output: {output}")
-
+print(f"Output: {output}")      # print the result

@@ -2,7 +2,7 @@
 
 groceries = input("Product: ").lower()
 
-products = {                           # lowercase fruit keys and calories values
+products = {              # lowercase fruit keys and calories values.
     "apple": 1.30,
     "avocado": 2.50,
     "banana": 1.00,

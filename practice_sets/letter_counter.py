@@ -6,12 +6,12 @@
 # Print the final count
 
 
-text = input("Text: ")          # get some text
-counter = 0
+text = input("Text: ")  # get some text
+counter = 0     # start the count at zero
 
-for char in text:               # examine every character
-    if char.isalpha():          # if the character is a letter
-        counter +=1             # increase the count
+for char in text:  # examine every character
+    if char.isalpha():  # if the character is a letter:
+        counter += 1  # increase the count
 
 
-print(f"Letters: {counter}")
+print(f"Letters: {counter}")    # print the final count
