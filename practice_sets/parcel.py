@@ -45,50 +45,56 @@ def is_valid(reference):
         return False
 
     # 4. Find the first number and confirm one exists
-    number_found = False
+    # 5. Reject 0 as the first number
+    # 6a. Remember where the first number appears
 
-    for character in reference[2:]:
-        if character.isnumeric():
-            number_found = True
+    first_number_index = None  # none means no number position has been recorded yet
 
-        # 5. Reject 0 as the first number
-        if character == "0":
-            return False
-
-        break
-
-    if not number_found:
-        return False
-
-    # 6. check everything after the first number is numeric
-    # 6a. remember where the first number appears
-    first_number_index = None  # a variable name representing the current position
-
-    # in this example the first number appears at index 2
+    # The first number may appear at different indexes
     # search each index from the third character to the end
     # range gives the loop a sequence of numbers to move through
     # range() is like giving the loop a route map
     # let index take every position from 2 up to, but not including, the length of the reference
     # this loop checks starting from index 2 because prior loops already checks the first 2 indexes [0 and 1]
     for index in range(2, len(reference)):
-        character = reference[index]  # get the character at the current index
+        character = reference[index]  # get the character stored at the current index
 
-        # when the current character is numeric, remember its position, then stop searching because this is the first number
-        if character.isnumeric():
-            first_number_index = index  # save the index when the first number is found
+        if character.isnumeric():  # when the first numeric character is found
+            first_number_index = index  # save its position
+
+            # reject the reference if the first number is 0
+            if character == "0":
+                return False
 
             break
 
-    # 6b. start checking at the character after that position
-    # start at the character after the first number, then continue to the end
-    for index in range(first_number_index + 1, len(reference)):
-        # 6c. Reject any non-numeric character after the first number
-        # check every character after the first number
-        # if even one of them is not numeric, reject the reference
-        character = reference[index]
+    # safeguard: reject if no number was found
+    if first_number_index is None:
+        return False
 
+    # 6b. start checking after the first number
+    # 6c. reject any later character that is not numeric
+    # start at the character after the first number, then continue to the end
+    # check every character after the first number
+    # if even one of them is not numeric, reject the reference
+
+    for index in range(first_number_index + 1, len(reference)):
+        character = reference[index]  # get the character at the current index
+
+        # once numbers begin, every later character must also be numeric
         if not character.isnumeric():
             return False
 
+    # 7. check the final two characters are numeric
+    # take the last two characters
+    # if they are not both numeric, reject the reference
+    if (
+        not reference[-2].isnumeric()
+    ):  # colon with nothing after it means continue to the end  # noqa: SIM103
+        return False
+
+    return True
+
 
 main()
+# The first number may appear at different indexes
