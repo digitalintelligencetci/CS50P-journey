@@ -56,6 +56,7 @@ def is_valid(reference):
     # range() is like giving the loop a route map
     # let index take every position from 2 up to, but not including, the length of the reference
     # this loop checks starting from index 2 because prior loops already checks the first 2 indexes [0 and 1]
+    # The first number may appear at different indexes
     for index in range(2, len(reference)):
         character = reference[index]  # get the character stored at the current index
 
@@ -88,12 +89,11 @@ def is_valid(reference):
     # 7. check the final two characters are numeric
     # take the last two characters
     # if they are not both numeric, reject the reference
-    # colon with nothing after it means continue to the end
-    if not reference[-2:].isnumeric():  # noqa: SIM103
+    # a colon with nothing after it means continue to the end
+    if not reference[-2:].isnumeric():
         return False
 
     return True
 
 
 main()
-# The first number may appear at different indexes
