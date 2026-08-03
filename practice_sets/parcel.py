@@ -61,9 +61,9 @@ def is_valid(reference):
         return False
 
     # 6. check everything after the first number is numeric
-    first_number_index = index  # a variable name representing the current position
-
     # 6a. remember where the first number appears
+    first_number_index = None  # a variable name representing the current position
+
     # in this example the first number appears at index 2
     # search each index from the third character to the end
     # range gives the loop a sequence of numbers to move through
@@ -71,8 +71,24 @@ def is_valid(reference):
     # let index take every position from 2 up to, but not including, the length of the reference
     # this loop checks starting from index 2 because prior loops already checks the first 2 indexes [0 and 1]
     for index in range(2, len(reference)):
+        character = reference[index]  # get the character at the current index
 
+        # when the current character is numeric, remember its position, then stop searching because this is the first number
+        if character.isnumeric():
+            first_number_index = index  # save the index when the first number is found
 
+            break
+
+    # 6b. start checking at the character after that position
+    # start at the character after the first number, then continue to the end
+    for index in range(first_number_index + 1, len(reference)):
+        # 6c. Reject any non-numeric character after the first number
+        # check every character after the first number
+        # if even one of them is not numeric, reject the reference
+        character = reference[index]
+
+        if not character.isnumeric():
+            return False
 
 
 main()
