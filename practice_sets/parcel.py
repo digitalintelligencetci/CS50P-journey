@@ -88,9 +88,9 @@ def is_valid(reference):
     # 7. check the final two characters are numeric
     # take the last two characters
     # if they are not both numeric, reject the reference
-    if (
-        not reference[-2].isnumeric()
-    ):  # colon with nothing after it means continue to the end  # noqa: SIM103
+    if not reference[
+        -2
+    ].isnumeric():  # colon with nothing after it means continue to the end
         return False
 
     return True
