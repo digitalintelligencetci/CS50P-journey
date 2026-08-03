@@ -48,15 +48,14 @@ def is_valid(reference):
     # 5. Reject 0 as the first number
     # 6a. Remember where the first number appears
 
-    first_number_index = None  # none means no number position has been recorded yet
+    first_number_index = None  # None means no number position has been recorded yet
 
     # The first number may appear at different indexes
     # search each index from the third character to the end
     # range gives the loop a sequence of numbers to move through
     # range() is like giving the loop a route map
     # let index take every position from 2 up to, but not including, the length of the reference
-    # this loop checks starting from index 2 because prior loops already checks the first 2 indexes [0 and 1]
-    # The first number may appear at different indexes
+    # Start at index 2 because the first two indexes, 0 and 1, were already checked
     for index in range(2, len(reference)):
         character = reference[index]  # get the character stored at the current index
 
